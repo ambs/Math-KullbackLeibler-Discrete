@@ -15,11 +15,11 @@ Math::KullbackLeibler::Discrete - Computes Kullback-Leibler divergence for two d
 
 =head1 VERSION
 
-Version 0.02
+Version 0.04
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.04';
 
 
 =head1 SYNOPSIS
@@ -73,16 +73,11 @@ sub kl {
     my $SU = {};
     $SU->{$_}++ for (keys %$P, keys %$Q);
 
-    my ($susp, $susq) = (0, 0);
     # | Universe - P |
-    for (keys %$Q) {
-        $susp++ if $SU->{$_} == 1;
-    }
+    my $susp = scalar(keys %$SU) - scalar(keys %$P);
 
     # | Universe - Q |
-    for (keys %$P) {
-        $susq++ if $SU->{$_} == 1;
-    }
+    my $susq = scalar(keys %$SU) - scalar(keys %$Q);
 
     my $pc = $eps * ($susp/scalar(keys %$P));
     my $qc = $eps * ($susq/scalar(keys %$Q));

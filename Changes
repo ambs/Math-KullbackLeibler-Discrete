@@ -1,9 +1,16 @@
 Revision history for Math-KullbackLeibler-Discrete
 
+0.04    Mon Mar 11 10:41:12 WET 2013
+        - Fix prerequisites.
+
+0.03    Sat Mar  9 14:27:49 WET 2013
+        - Fix Changelog order (oops!)
+        - Make code faster
+
+0.02    Fri Mar  8 20:17:58 WET 2013
+        - Add epsilon option to set smoothing amount.
+
 0.01    Fri Mar  8 18:35:23 WET 2013
         First version, released on an unsuspecting world.
         - includes kl function is basic implementation.
         - need further testing.
-
-0.02    Fri Mar  8 20:17:58 WET 2013
-        - Add epsilon option to set smoothing amount.

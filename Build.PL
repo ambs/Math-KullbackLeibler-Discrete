@@ -16,8 +16,8 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        #'ABC'              => 1.6,
-        #'Foo::Bar::Module' => 5.0401,
+                 'parent' => 0,
+                 'Exporter' => 0,
     },
     add_to_cleanup     => [ 'Math-KullbackLeibler-Discrete-*' ],
 );
