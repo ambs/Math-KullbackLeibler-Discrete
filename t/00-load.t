@@ -28,4 +28,4 @@ is( int(kl($Q, $P)), 2);
 is( kl($P, $P, epsilon => 0), 0);
 
 eval { kl($Q, $P, epsilon => 0) };
-like $@ => qr/Can't take log of 0/;
+like $@ => qr/(?:Can't take log of 0|Illegal division by zero)/;

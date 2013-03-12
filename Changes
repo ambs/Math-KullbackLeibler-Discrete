@@ -1,5 +1,8 @@
 Revision history for Math-KullbackLeibler-Discrete
 
+0.05    Tue Mar 12 10:45:44 WET 2013
+        - Different Perl implementations give different error messages.
+
 0.04    Mon Mar 11 10:41:12 WET 2013
         - Fix prerequisites.
 
