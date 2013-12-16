@@ -19,7 +19,7 @@ Version 0.05
 
 =cut
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 
 =head1 SYNOPSIS
@@ -88,7 +88,7 @@ sub kl {
     };
     my $Qline = sub {
         my $i = shift;
-        return exists($Q->{$i}) ? $Q->{$i} - $pc : $eps;
+        return exists($Q->{$i}) ? $Q->{$i} - $qc : $eps;
     };
 
     my $kl = 0;

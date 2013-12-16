@@ -1,5 +1,9 @@
 Revision history for Math-KullbackLeibler-Discrete
 
+0.06    Mon Dec 16 12:18:10 WET 2013
+		- Thanks to Jeremy Seideman for finding out a stupid bug.
+		  Copy and Paste is Evil!
+
 0.05    Tue Mar 12 10:45:44 WET 2013
         - Different Perl implementations give different error messages.
 
