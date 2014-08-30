@@ -24,4 +24,4 @@ install:
     - cpanm .
 
 script:
-    - make test
+    - dzil test --author --release
