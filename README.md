@@ -1,9 +1,9 @@
-# NAME
+### NAME
 
 Math::KullbackLeibler::Discrete - Computes Kullback-Leibler divergence
 for two discrete distributes.
 
-# SYNOPSIS
+### SYNOPSIS
 
 This module computes Kullback-Leibler divergence for two discrete
 distributions, using smoothing.
@@ -21,7 +21,7 @@ distributions, using smoothing.
         # setting epsilon to 0 results in no smoothing.
         my $kl3 = kl( $P, $Q, epsilon => 0 );
 
-# EXPORT
+### EXPORT
 
    * kl -- Computes smoothed KL.
 
@@ -39,16 +39,16 @@ distributions, using smoothing.
      However, notice that this will lead to errors in case of divergent
      domains.
 
-# AUTHOR
+### AUTHOR
 
 Alberto Simões, <ambs at cpan.org>
 
-# BUGS
+### BUGS
 
 Please report any bugs or feature requests on
 https://github.com/ambs/Math-KullbackLeibler-Discrete/issues
 
-# SUPPORT
+### SUPPORT
 
 You can find documentation for this module with the perldoc command.
 
@@ -72,13 +72,13 @@ You can also look for information at:
 
      <http://search.cpan.org/dist/Math-KullbackLeibler-Discrete/>
 
-# ACKNOWLEDGEMENTS
+### ACKNOWLEDGEMENTS
 
 Thanks to Michael Elhadad for making his lecture on-line, so I found a
 nice and clean explanation of how this metric could be computed and
 implemented.
 
-# LICENSE AND COPYRIGHT
+### LICENSE AND COPYRIGHT
 
 Copyright 2013-2014 Alberto Simões.
 
