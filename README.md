@@ -1,3 +1,7 @@
+## Math::KullbackLeibler::Discrete
+
+[![Build Status](https://travis-ci.org/ambs/Math-KullbackLeibler-Discrete.png?branch=master)](https://travis-ci.org/ambs/Math-KullbackLeibler-Discrete)
+
 ### NAME
 
 Math::KullbackLeibler::Discrete - Computes Kullback-Leibler divergence
