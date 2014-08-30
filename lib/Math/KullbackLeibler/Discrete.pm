@@ -13,15 +13,6 @@ our @EXPORT = qw(kl);
 
 Math::KullbackLeibler::Discrete - Computes Kullback-Leibler divergence for two discrete distributes.
 
-=head1 VERSION
-
-Version 0.05
-
-=cut
-
-our $VERSION = '0.06';
-
-
 =head1 SYNOPSIS
 
 This module computes Kullback-Leibler divergence for two discrete
