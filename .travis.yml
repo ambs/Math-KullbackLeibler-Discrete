@@ -21,7 +21,6 @@ notifications:
 install:
     - cpanm Dist::Zilla
     - dzil authordeps | cpanm || { cat ~/.cpanm/build.log ; false ; }
-    - cpanm .                 || { cat ~/.cpanm/build.log ; false ; }
 
 script:
     - dzil test --author --release
